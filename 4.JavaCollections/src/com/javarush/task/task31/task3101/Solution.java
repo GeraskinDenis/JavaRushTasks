@@ -27,11 +27,9 @@ public class Solution {
         File newResultFile = new File(
                 "w:/java/vm53/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task31/task3101//allFilesContent.txt");
 
-        System.out.println(resultFile.getName()); // XXX
         if (FileUtils.isExist(resultFile)) {
             FileUtils.renameFile(resultFile, newResultFile);
         }
-        System.out.println(resultFile.getName());
 
         try (FileOutputStream fos = new FileOutputStream(newResultFile)) {
             readCatalogRecursion(pathFile, fos);
