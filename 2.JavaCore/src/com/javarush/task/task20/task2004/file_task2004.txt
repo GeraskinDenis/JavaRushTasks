@@ -1,0 +1,3 @@
+@staticString=This is a static test string
+@i=3
+@j=4
