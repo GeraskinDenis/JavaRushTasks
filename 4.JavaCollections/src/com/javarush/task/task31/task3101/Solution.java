@@ -12,27 +12,37 @@ import java.io.IOException;
 public class Solution {
 
     public static void main(String[] args) {
+        // "temp/task3101/src" "c:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/temp/task3101/result.txt"
+
         if (args.length != 2) {
             return;
         }
-        String path = args[0];
-        String resultFileAbsolutePath = args[1];
 
-        File pathFile = new File(path);
-        if (!FileUtils.isExist(pathFile)) {
-            System.out.println("The File '" + pathFile.getAbsolutePath() + "' not found!");
+        File src = new File(System.getProperty("user.dir") + "/" + args[0]);
+        if (!FileUtils.isExist(src)) {
+            System.out.println("The catalog '" + src.getAbsolutePath() + "' not found!");
             return;
         }
-        File resultFile = new File(resultFileAbsolutePath);
-        File newResultFile = new File(
-                "w:/java/vm53/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task31/task3101//allFilesContent.txt");
+
+        File resultFile = new File(args[1]);
+        if(!FileUtils.isExist(resultFile)){
+            System.out.println("The File '" + resultFile.getAbsolutePath() + "' not found!");
+            return;
+        }
+
+        File newResultFile = new File(resultFile.getParent() + "/allFilesContent.txt");
+
+        // Если существует файл с новым именем, тогда удаляем его
+        if (FileUtils.isExist(newResultFile)) {
+            FileUtils.deleteFile(newResultFile);
+        }
 
         if (FileUtils.isExist(resultFile)) {
             FileUtils.renameFile(resultFile, newResultFile);
         }
 
         try (FileOutputStream fos = new FileOutputStream(newResultFile)) {
-            readCatalogRecursion(pathFile, fos);
+            readCatalogRecursion(src, fos);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -44,9 +54,13 @@ public class Solution {
             if (file.isDirectory()) {
                 readCatalogRecursion(file, fos);
             } else {
-                if (file.length() <= 50L) {
+                if (file.length() <= 50L && isTxtFile(file)) {
                     try (FileInputStream fis = new FileInputStream(file)) {
-                        fos.write(fis.readAllBytes());
+                        byte[] bytes = new byte[16];
+                        while (fis.available() > 0) {
+                            int n = fis.read(bytes);
+                            fos.write(bytes, 0, n);
+                        }
                         fos.write(System.lineSeparator().getBytes());
                     } catch (IOException e) {
                         throw new RuntimeException(e);
@@ -55,5 +69,9 @@ public class Solution {
             }
         }
 
+    }
+
+    private static boolean isTxtFile(File file) {
+        return file.getName().matches(".+.txt$");
     }
 }
