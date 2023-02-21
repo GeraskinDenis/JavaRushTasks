@@ -24568,3 +24568,100 @@ java.lang.NullPointerException: Cannot assign field "jobTypes" because "taskUser
 2022-09-07 22:35:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2022-09-07 22:35:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-09-07 22:35:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-09-07 22:46:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-07 22:46:54 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-07 22:47:12 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-09-07 22:47:12 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task31/task3102
+2022-09-11 11:50:15 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-09-11 11:50:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 11:50:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-11 17:41:54 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-09-11 17:41:54 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-09-11 17:41:54 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-09-11 17:41:54 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-09-11 17:41:54 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-09-11 17:41:54 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-09-18 22:13:14 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-09-18 22:13:15 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-03 11:03:50 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-03 11:03:50 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-11-03 11:03:50 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-03 11:03:50 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-03 11:03:50 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-03 11:03:50 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-03 11:04:42 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-03 11:04:42 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-03 11:05:39 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-03 11:05:39 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-11-03 11:05:39 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-03 11:05:40 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-03 11:05:40 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-03 11:05:40 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-04 01:26:13 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-04 01:26:13 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-04 01:28:46 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-04 01:28:46 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-11-04 01:28:46 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-04 01:28:47 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-04 01:28:47 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-04 01:28:47 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-04 01:28:47 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-07 21:05:49 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-07 21:05:49 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-07 21:10:56 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-07 21:10:56 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-11-07 21:10:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-07 21:10:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-07 21:10:56 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-07 21:10:56 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-07 21:10:56 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-07 23:08:01 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-07 23:08:01 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-07 23:10:14 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-07 23:10:14 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.58 ----------
+
+2022-11-07 23:10:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-07 23:10:14 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-07 23:10:14 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-07 23:10:14 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-09 21:08:08 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-09 21:08:08 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-02-21 06:54:48 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-02-21 06:54:48 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-02-21 06:54:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-02-21 06:54:49 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-02-21 06:54:49 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-02-21 06:54:49 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-02-21 06:54:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-21 06:54:59 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-02-21 06:55:39 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-02-21 08:27:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-21 08:27:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-21 08:27:13 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-21 08:27:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-21 08:27:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-21 08:27:57 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-02-21 08:28:21 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-02-21 08:28:21 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com
+2023-02-21 08:28:21 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush
+2023-02-21 08:28:21 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task
+2023-02-21 08:28:21 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task21
+2023-02-21 08:28:21 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/fresh7lemon@ya.ru/java/vm53/IdeaProjects/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task21/task2103
